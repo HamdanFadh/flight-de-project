@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: bookings
+    database: flightdb  # opsional tergantung konfigurasi
+    schema: bookings
+    tables:
+      - name: seats
+      - name: bookings
+      - name: tickets
+      - name: ticket_flights
+      - name: boarding_passes
+      - name: aircrafts_data
+      - name: airports_data
+      - name: flights

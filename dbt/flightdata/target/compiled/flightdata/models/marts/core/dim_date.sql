@@ -1,3 +1,0 @@
--- WITH stg_date as(
---     SELECT
--- )
